@@ -20,7 +20,7 @@ export default function Banner() {
     let ticker = setInterval(() => {
       tick();
     }, delta);
-
+  
     return () => {
       clearInterval(ticker);
     };

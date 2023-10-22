@@ -52,23 +52,23 @@ export default function Skills() {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={reactIcon} alt="skill" />
+                  <img src={reactIcon} alt="" />
                   <h5>React.js</h5>
                 </div>
                 <div className="item">
-                  <img src={javascriptIcon} alt="skill" />
+                  <img src={javascriptIcon} alt="" />
                   <h5>JavaScript</h5>
                 </div>
                 <div className="item">
-                  <img src={nodeIcon} alt="skill" />
+                  <img src={nodeIcon} alt="" />
                
                 </div>
                 <div className="item">
-                  <img src={cssIcon} alt="skill" />
+                  <img src={cssIcon} alt="" />
                   <h5>CSS</h5>
                 </div>
                 <div className="item">
-                  <img src={htmlIcon} alt="skill" />
+                  <img src={htmlIcon} alt="" />
                   <h5>HTML</h5>
                 </div>
               </Carousel>
@@ -76,7 +76,6 @@ export default function Skills() {
           </Container>
         </Container>
       </Container>
-
     </section>
   );
 }
