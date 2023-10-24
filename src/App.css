@@ -263,6 +263,10 @@ p, a, li, button, ul {
      
   }
 
+  .navbar-meniu-toggle{
+    backdrop-filter: blur(10px);
+  }
+
   .logo-img{
     height: 110px;
  

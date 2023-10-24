@@ -37,7 +37,7 @@ export default function NavBar() {
 
          
           </Navbar.Toggle>
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse id="basic-navbar-nav" className="navbar-meniu-toggle">
             <Nav className="me-auto">
               <Nav.Link
                 href="#home"
