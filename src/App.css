@@ -264,8 +264,8 @@ p, a, li, button, ul {
   }
 
   .navbar-meniu-toggle{
-    backdrop-filter: blur(10px);
-    border-radius: 30%;
+    backdrop-filter: blur(80px);
+    border-radius:0% 0% 0% 0%;
   }
 
   .logo-img{
