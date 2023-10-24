@@ -14,31 +14,41 @@ export default function Projects() {
       title: "Web-Studio",
       description: "HTML & CSS",
       imgUrl: projImg1,
+      link: "https://camariu.github.io/goit-markup-hw-08/"
+      
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg2,
+      link: "https://camariu.github.io/goit-markup-hw-08/"
+     
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
+      link: "https://camariu.github.io/goit-markup-hw-08/"
+
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg1,
+      link: "https://camariu.github.io/goit-markup-hw-08/"
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg2,
+      link: "https://camariu.github.io/goit-markup-hw-08/"
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
+      link: "https://camariu.github.io/goit-markup-hw-08/"
+    
     },
   ];
 

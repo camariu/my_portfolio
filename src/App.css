@@ -172,7 +172,7 @@ p, a, li, button, ul {
     font-weight: 700;
     color: #fff;
     border: 1px solid #fff;
-    padding: 18px 34px;
+    padding: 15px 34px;
     font-size: 18px;
     margin-left: 18px;
       position: relative;
@@ -265,6 +265,7 @@ p, a, li, button, ul {
 
   .navbar-meniu-toggle{
     backdrop-filter: blur(10px);
+    border-radius: 30%;
   }
 
   .logo-img{
@@ -517,6 +518,8 @@ p, a, li, button, ul {
     transition: 0.5s ease-in-out;
     opacity: 0;
     width: 100%;
+    display: flex;
+    flex-direction: column;
   }
   .proj-imgbx:hover .proj-txtx {
     top: 50%;
@@ -528,12 +531,40 @@ p, a, li, button, ul {
     letter-spacing: 0.8px;
     line-height: 1.1em;
   }
-  .proj-txtx span {
+  .proj-txtx span  {
     font-style: italic;
     font-weight: 400;
     font-size: 15px;
     letter-spacing: 0.8px;
   }
+
+  .proj-txtx a {
+   text-decoration: none;
+   padding: 5px;
+   color: white;
+   
+   
+
+  }
+
+  .proj-txtx button{
+    padding: 10px;
+    border: 1px solid white;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+  }
+
+  .proj-txtx button:hover, 
+  .proj-txtx button:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(#fff,0);
+  background-color: #8745c4;
+  transition: background-color 0.8s
+}
+
+@keyframes button {
+  0% { box-shadow: 0 0 0 0 var(--hover); }
+}
   .background-image-right {
     top: 20%;
     position: absolute;
@@ -618,73 +649,14 @@ p, a, li, button, ul {
   .footer {
    
     padding: 0 0 50px 0;
-    background-image: url('./assets/img/footer-bg.png');
+   background-color: #420B73;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
   }
-  /* .newsletter-bx {
-    background: #FFFFFF;
-    border-radius: 55px;
-    color: #121212;
-    padding: 85px 125px;
-    margin-bottom: 80px;
-    margin-top: -122px;
-  }
-  .newsletter-bx h3 {
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    line-height: 1.2em;
-  }
-  .new-email-bx {
-    background: #fff;
-    padding: 5px;
-    border-radius: 20px;
-    position: relative;
-    z-index: 0;
-    display: flex;
-    align-items: center;
-  }
-  .new-email-bx::before {
-    content: "";
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-    border-radius: 20px;
-    position: absolute;
-    z-index: -1;
-    top: -1px;
-    left: -1px;
-    bottom: -1px;
-    right: -1px;
-  }
-  .new-email-bx::after {
-    content: "";
-    background: #fff;
-    border-radius: 20px;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-  }
-  .new-email-bx input {
-    width: 100%;
-    color: #121212;
-    font-weight: 500;
-    background: transparent;
-    border: 0;
-    padding: 0 15px;
-  }
-  .new-email-bx button {
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-    padding: 20px 65px;
-    color: #fff;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    border-radius: 18px;
-  } */
+  
   .footer img {
-    width: 26%;
+    width: 50%;
   }
   .footer p {
     font-weight: 400;
@@ -697,6 +669,10 @@ p, a, li, button, ul {
   .footer-log{
     display: flex;
     justify-content: center;
+ 
+    align-items: center;
+    margin-top: 40px !important
+ 
   }
 
    .footer-social{
