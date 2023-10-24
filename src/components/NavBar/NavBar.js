@@ -34,7 +34,8 @@ export default function NavBar() {
             <img src={logo} alt="Logo"   className="logo-img-pos" ></img>
           </div>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
-            <span className="navbar-toogle-icon"></span>
+            <span className="navbar-toogle-icon toogle-button" >Menu</span>
+         
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">

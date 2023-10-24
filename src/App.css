@@ -75,6 +75,7 @@ p, a, li, button, ul {
       main .container {
           max-width: 100%;
           padding: 0 150px;
+        
       }
   }
   
@@ -108,13 +109,16 @@ p, a, li, button, ul {
     font-weight: 400;
     color: #fff !important;
     letter-spacing: 0.8px;
-    padding: 0 25px;
+    padding: 7px 25px;
     font-size: 18px;
     opacity: 0.75;
+
+   
   }
   nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
   nav.navbar .navbar-nav a.nav-link.navbar-link.active {
       opacity: 1;
+       
   }
 
   .connect{
@@ -129,6 +133,7 @@ p, a, li, button, ul {
   .social-icon {
       display: inline-block;
       margin-left: 14px;
+      padding: 10px;
   }
   .social-icon a {
       width: 42px;
@@ -201,18 +206,21 @@ p, a, li, button, ul {
   nav.navbar .navbar-toggler:focus {
       outline: none;
       box-shadow: none;
+      
   }
   nav.navbar .navbar-toggler-icon {
     width: 24px;
     height: 17px;
     background-image: none;
     position: relative;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #d31818;
     transition: all 300ms linear;
     top: -2px;
+    
   }
   nav.navbar .navbar-toggler-icon:focus {
       border-bottom: 2px solid #fff;
+    
   }
   nav.navbar .navbar-toggler-icon:after,
   nav.navbar .navbar-toggler-icon:before {
@@ -225,22 +233,28 @@ p, a, li, button, ul {
       content: '';
       z-index: 2;
       transition: all 300ms linear;
+      
   }
   nav.navbar .navbar-toggler-icon:after {
       top: 8px;
+     
   }
   nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
       transform: rotate(45deg);
       background-color: #fff;
       height: 2px;
+    
+     
   }
   nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
       transform: translateY(8px) rotate(-45deg);
       background-color: #ffffff;
       height: 2px;
+      
   }
   nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
       border-color: transparent;
+     
   }
 
   .logo-img{
@@ -251,8 +265,13 @@ p, a, li, button, ul {
   .logo-img-pos{
     height: 100px;
     width: 250px;
+    padding: 10px;
   }
   
+
+  .toogle-button{
+    color: #ffffff;
+  }
   /************ Banner Css ************/
   .banner {
     margin-top: 0;
@@ -378,6 +397,15 @@ p, a, li, button, ul {
     width: 40%;
     z-index: -4;
   }
+
+  .position-row{
+    margin: auto;
+  }
+
+  .container{
+    margin: auto;
+  }
+
   
   /************ Projects Css ************/
   .project {

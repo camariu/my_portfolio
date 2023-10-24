@@ -39,7 +39,7 @@ export default function Skills() {
   return (
     <section className="skill" id="skills">
       <Container className="container">
-        <Container className="row">
+        <Container >
           <Container className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
