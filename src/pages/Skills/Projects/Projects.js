@@ -64,10 +64,7 @@ export default function Projects() {
           <Col>
             <h2>Projects</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+            This portfolio of projects represents a diverse collection of web applications developed using technologies such as React.js, JavaScript, HTML, and CSS. Each project has been created to demonstrate the   skills and knowledge in building interactive and scalable web applications.
             </p>
 
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
