@@ -647,9 +647,10 @@ p, a, li, button, ul {
   
   /************ Footer Css ************/
   .footer {
-   
+    border-top: 1px solid white;
     padding: 0 0 50px 0;
-   background-color: #420B73;
+    background: rgb(31,24,150);
+    background: linear-gradient(90deg, rgba(31,24,150,1) 0%, rgba(38,38,117,1) 86%, rgba(28,62,181,1) 100%, rgba(36,32,102,1) 100%, rgba(4,64,239,1) 100%, rgba(63,98,158,1) 100%, rgba(0,0,0,1) 100%, rgba(2,0,36,1) 100%);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;

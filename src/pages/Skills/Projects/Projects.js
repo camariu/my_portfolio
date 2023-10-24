@@ -3,51 +3,56 @@ import { Container, Row, Col, Tab } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import ProjectCard from "../../../components/ProjectCard/ProjectCard";
 import colorSharp2 from "../../../assets/img/color-sharp2.png";
-import projImg1 from "../../../assets/img/11zon_resized.png";
-import projImg2 from "../../../assets/img/project-img2.png";
-import projImg3 from "../../../assets/img/project-img3.png";
+import projImg1 from "../../../assets/img/filmoteka.png";
+import projImg2 from "../../../assets/img/ice-cream-team.png";
+import projImg3 from "../../../assets/img/find-imge-react.png";
+import projImg4 from "../../../assets/img/feedback-react.png";
+import projImg5 from "../../../assets/img/search-image-JS.png";
+import projImg6 from "../../../assets/img/Applications.png";
 
 
 export default function Projects() {
   const projects = [
     {
-      title: "Web-Studio",
-      description: "HTML & CSS",
+      title: "Filmoteka",
+      description: "JavaScript & HTML & CSS ",
+      description2: "Team_project",
       imgUrl: projImg1,
       link: "https://camariu.github.io/goit-markup-hw-08/"
       
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Ice-Cream",
+      description: "HMTL & CSS",
+      description2: "Team_project",
       imgUrl: projImg2,
-      link: "https://camariu.github.io/goit-markup-hw-08/"
+      link: "https://andreeasichitiu.github.io/team-6-ice-project/"
      
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Find Image",
+      description: "React.js",
       imgUrl: projImg3,
-      link: "https://camariu.github.io/goit-markup-hw-08/"
+      link: "https://camariu.github.io/goit-react-hw-04-images/"
 
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-      link: "https://camariu.github.io/goit-markup-hw-08/"
+      title: "Feedback",
+      description: "React.js",
+      imgUrl: projImg4,
+      link: "https://camariu.github.io/goit-react-hw-02-feedback/"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-      link: "https://camariu.github.io/goit-markup-hw-08/"
+      title: "Search Image",
+      description: "JavaScript & HTML & CSS",
+      imgUrl: projImg5,
+      link: "https://camariu.github.io/goit-js-hw-11/"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-      link: "https://camariu.github.io/goit-markup-hw-08/"
+      title: "Applications JavaScript",
+      description: "JavaScript",
+      imgUrl: projImg6,
+      link: "https://camariu.github.io/goit-js-hw-06/index.html"
     
     },
   ];
