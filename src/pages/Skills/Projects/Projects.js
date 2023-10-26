@@ -18,7 +18,7 @@ export default function Projects() {
       description: "JavaScript & HTML & CSS ",
       description2: "Team_project",
       imgUrl: projImg1,
-      link: "https://camariu.github.io/goit-markup-hw-08/"
+      link: "https://camariu.github.io/Filmoteka/"
       
     },
     {
