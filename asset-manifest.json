@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my_portfolio/static/css/main.43ab9070.css",
-    "main.js": "/my_portfolio/static/js/main.041f8c2b.js",
+    "main.js": "/my_portfolio/static/js/main.9df20a62.js",
     "static/js/787.6b7abe35.chunk.js": "/my_portfolio/static/js/787.6b7abe35.chunk.js",
     "static/media/mainImg.jpg": "/my_portfolio/static/media/mainImg.8b3624d83e6787768aaf.jpg",
     "static/media/color-sharp2.png": "/my_portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -11,13 +11,12 @@
     "static/media/search-image-JS.png": "/my_portfolio/static/media/search-image-JS.d85cc90f07a786054376.png",
     "static/media/ice-cream-team.png": "/my_portfolio/static/media/ice-cream-team.53d7c0c2b863081286cd.png",
     "static/media/Screenshot_5.png": "/my_portfolio/static/media/Screenshot_5.30634f66b86eb2e14583.png",
-    "static/media/feedback-react.png": "/my_portfolio/static/media/feedback-react.39ecddf88e4b04f903b3.png",
+    "static/media/phonebook.jpg": "/my_portfolio/static/media/phonebook.c53c6d460e4755331f33.jpg",
     "static/media/revicons.eot": "/my_portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/my_portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/my_portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/nodejs.svg": "/my_portfolio/static/media/nodejs.e55572852ea7a91f785f9c3a2102771a.svg",
     "static/media/react-2.svg": "/my_portfolio/static/media/react-2.e68b35f4774979ae220b1d5d7b345b00.svg",
-    "static/media/nav-icon3.svg": "/my_portfolio/static/media/nav-icon3.72cef43bc93b04f52e29f022ef720f8b.svg",
     "index.html": "/my_portfolio/index.html",
     "static/media/github-mark-white.svg": "/my_portfolio/static/media/github-mark-white.97ed8e7eef60d61ca469881dd6f34511.svg",
     "static/media/nav-icon1.svg": "/my_portfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
@@ -28,11 +27,11 @@
     "static/media/CentraNo2-Book.ttf": "/my_portfolio/static/media/CentraNo2-Book.31d6cfe0d16ae931b73c.ttf",
     "static/media/CentraNo2-Medium.ttf": "/my_portfolio/static/media/CentraNo2-Medium.31d6cfe0d16ae931b73c.ttf",
     "main.43ab9070.css.map": "/my_portfolio/static/css/main.43ab9070.css.map",
-    "main.041f8c2b.js.map": "/my_portfolio/static/js/main.041f8c2b.js.map",
+    "main.9df20a62.js.map": "/my_portfolio/static/js/main.9df20a62.js.map",
     "787.6b7abe35.chunk.js.map": "/my_portfolio/static/js/787.6b7abe35.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43ab9070.css",
-    "static/js/main.041f8c2b.js"
+    "static/js/main.9df20a62.js"
   ]
 }
