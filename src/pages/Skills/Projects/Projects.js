@@ -6,13 +6,21 @@ import colorSharp2 from "../../../assets/img/color-sharp2.png";
 import projImg1 from "../../../assets/img/filmoteka.png";
 import projImg2 from "../../../assets/img/ice-cream-team.png";
 import projImg3 from "../../../assets/img/find-imge-react.png";
-import projImg4 from "../../../assets/img/feedback-react.png";
+ 
 import projImg5 from "../../../assets/img/search-image-JS.png";
 import projImg6 from "../../../assets/img/Applications.png";
-
+import projImg7 from "../../../assets/img/phonebook.jpg";
 
 export default function Projects() {
   const projects = [
+    {
+      title: "PhoneBook",
+      description: "React.js ",
+      description2: "PhoneBook with Register&Login",
+      imgUrl: projImg7,
+      link: "https://camariu.github.io/goit-react-hw-08-phonebook/"
+      
+    },
     {
       title: "Filmoteka",
       description: "JavaScript & HTML & CSS ",
@@ -36,12 +44,7 @@ export default function Projects() {
       link: "https://camariu.github.io/goit-react-hw-04-images/"
 
     },
-    {
-      title: "Feedback",
-      description: "React.js",
-      imgUrl: projImg4,
-      link: "https://camariu.github.io/goit-react-hw-02-feedback/"
-    },
+  
     {
       title: "Search Image",
       description: "JavaScript & HTML & CSS",
@@ -117,7 +120,7 @@ export default function Projects() {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2} alt=""></img>
+      <img className="background-image-right"  src={colorSharp2} alt=""></img>
     </section>
   );
 }
